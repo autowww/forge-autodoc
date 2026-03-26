@@ -1,7 +1,7 @@
 # Copy to your host repo root as fa-handbook.yaml and adjust paths.
 # Paths are relative to this file's directory.
 content_root: ./fa-tutorial-md
-output_dir: ./fa-tutorials
+output_dir: ./tutorials
 # Use ./kitchensink when the host already vendors KS; else ./forge-autodoc/kitchensink
 kitchensink: ./kitchensink
 handbook_name: Project tutorials

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Copy to your host repo root as build-fa-tutorials.sh, chmod +x, then edit fa-handbook.yaml.
+# Default output_dir in fa-handbook.host.example.yaml is ./tutorials (generated HTML).
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
