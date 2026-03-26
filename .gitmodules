@@ -1,0 +1,3 @@
+[submodule "kitchensink"]
+	path = kitchensink
+	url = https://github.com/autowww/forgesdlc-kitchensink.git
