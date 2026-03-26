@@ -59,7 +59,7 @@ PYTHONPATH=forge-autodoc python3 -m forge_autodoc build \
 
 Or use a YAML config at the host root; paths in the file are relative to **the YAML file’s directory** (see [`examples/fa-handbook.host.example.yaml`](examples/fa-handbook.host.example.yaml)).
 
-Copy [`examples/build-fa-tutorials.host.example.sh`](examples/build-fa-tutorials.host.example.sh) to the host as `build-fa-tutorials.sh` and adjust names. Add `tutorials/` to the host `.gitignore` if you do not commit built HTML (remove any legacy `fa-tutorials/` entry after migrating).
+Copy [`examples/build-fa-tutorials.host.example.sh`](examples/build-fa-tutorials.host.example.sh) to the host as `build-fa-tutorials.sh` and adjust names. Add `tutorials/` to the host `.gitignore` if you do not commit built HTML.
 
 ## Library usage
 
