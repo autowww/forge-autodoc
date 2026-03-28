@@ -29,6 +29,8 @@ def assemble_handbook_page(
     is_template: bool,
     has_ks_diagram: bool = False,
     build_date_iso: str | None = None,
+    living_background: bool = False,
+    living_background_global_href: str = "assets/svg/living/global/field-rails-01.svg",
 ) -> str:
     """Render fragments into a complete document using KS ``handbook_page``."""
     ensure_kitchensink_importable(kitchensink_root)
@@ -67,4 +69,6 @@ def assemble_handbook_page(
         theme_css_href="assets/forge-theme.css",
         theme_js_href="assets/forge-theme.js",
         include_diagram_expand_modal=has_ks_diagram,
+        living_background=living_background,
+        living_background_global_href=living_background_global_href,
     )
