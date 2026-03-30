@@ -5,7 +5,11 @@ Build **static technical handbooks / tutorials** for engineers from your reposit
 ## Layout
 
 - `forge_autodoc/` — Python package (Markdown → HTML, sidebars, page assembly).
-- `kitchensink/` — git submodule (Forge design system). Bump with `git submodule update --remote kitchensink` when you need newer KS.
+- `kitchensink/` — git submodule (shared documentation chrome and transforms). Bump with `git submodule update --remote kitchensink` when you need newer assets. **Diagram fence syntax** (`blueprint-diagram` / legacy `ks-diagram`) is documented in the Kitchen Sink repo README.
+
+## Diagram fences in Markdown
+
+Consumer handbooks use fenced blocks processed by Kitchen Sink transforms. Authoring details: **forgesdlc-kitchensink** repository, README section **«Blueprint diagram fences»** (`blueprint-diagram` / `blueprint-diagram-expand`; legacy `ks-diagram` aliases remain supported).
 
 ## Install
 
